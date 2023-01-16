@@ -5,6 +5,7 @@ import LifeTimeline from "./pages/LifeTimeline";
 import Projects from "./pages/Projects";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import ProjectDisplay from "./pages/ProjectDisplay";
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
           <Route path='/' element={<Home />}></Route>
           <Route path='/Projects' element={<Projects />}></Route>
           <Route path='/LifeTimeLine' element={<LifeTimeline />}></Route>
+          <Route path='/Projects/:id' element={<ProjectDisplay />} />
         </Routes>
         <Footer />
       </Router>
