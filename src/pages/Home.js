@@ -6,9 +6,9 @@ export const Home = () => {
   return (
     <div className='home'>
       <div className='about'>
-        <h2>Hi, this is a placeholder</h2>
+        <h2>Hi, my name is Sahib</h2>
         <div className="prompt">
-          <p>Placeholder text</p>
+          <p>I'm a software developer in the pursuit of all things tech.</p>
           <div className='socialMedia'>
             <a 
                 href='https://github.com/Vykiial' 
