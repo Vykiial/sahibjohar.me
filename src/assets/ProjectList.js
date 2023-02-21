@@ -12,7 +12,7 @@ export const ProjectList = [
         name: "Portfolio Project",
         image: Proj1,
         skills: "This is the website you are currently on. It demonstrates React skills, as well as showing an aptitude for front-end development.",
-        link: "https://github.com/Vykiial/PersonalWebsite",
+        link: "https://github.com/Vykiial/sahibjohar.me",
     },
     {
         name: "Interactive To-Do List",
