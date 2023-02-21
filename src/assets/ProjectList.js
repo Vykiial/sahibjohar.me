@@ -1,5 +1,5 @@
-import Proj1 from "./to-do-list.png"
-import Proj2 from "./to-do-list.png"
+import Proj1 from "./proj1.jpg"
+import Proj2 from "./proj2.jpg"
 import Proj3 from "./proj3.jpg"
 import Proj4 from "./proj4.jpg"
 import Proj5 from "./proj5.jpg"
@@ -11,12 +11,14 @@ export const ProjectList = [
     {
         name: "Portfolio Project",
         image: Proj1,
-        skills: "These are the skills used: ",
+        skills: "This is the website you are currently on. It demonstrates React skills, as well as showing an aptitude for front-end development.",
+        link: "https://github.com/Vykiial/PersonalWebsite",
     },
     {
         name: "Interactive To-Do List",
         image: Proj2,
-        skills: "These are the skills used: ",
+        skills: "A simple \"to-do\" list made using React as a first project using React. It was made with the help of this reference video: https://www.youtube.com/watch?v=w7ejDZ8SWv8. It demonstrates React skills as well as demonstrates working with a simulated back-end environment.",
+        link: "https://github.com/Vykiial/TodoList",
     },
     {
         name: "Snake Game Clone",

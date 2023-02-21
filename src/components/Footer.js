@@ -1,6 +1,7 @@
 import GithubIcon from '@mui/icons-material/GitHub';
 import LinkedinIcon from '@mui/icons-material/LinkedIn';
 import Email from '@mui/icons-material/Email';
+import Resume from '@mui/icons-material/AutoStories';
 
 const Footer = () => {
   return (
@@ -26,6 +27,13 @@ const Footer = () => {
                 rel='noreferrer'
             >
                 <Email />
+            </a>
+            <a 
+                href='https://drive.google.com/file/d/1HV-Hr2JjP1vrm62WQKJV0YTWSWyraod9/view?usp=sharing' 
+                target='_blank'
+                rel='noreferrer'
+            >
+                <Resume />
             </a>
         </div>
         <p> &copy; 2022 sahibjohar.com</p>

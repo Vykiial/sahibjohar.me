@@ -39,15 +39,18 @@ export const Home = () => {
         <ol className='list'>
           <li className='item'>
             <h2>Technical Skills</h2>
-            <span>Placeholder Stuff</span>
+            <span>Bash, Git, GitHub, Microsoft Office (Excel, PowerPoint, etc), Photoshop, Ticketing Softwares, Problem-Solving Skills, Various Math Skills (Discrete Math, Calculus 1, Calculus 2, Linear Algebra), Data Analysis, an Aptitude for Research. </span>
           </li>
           <li className='item'>
             <h2>Soft Skills</h2>
-            <span>Placeholder Stuff</span>
+            <span>Great Teamwork, Excellent Communication, Self-Awareness, Self-Learning, Accountability, Time Managment, Critical Thinking Skills, Adaptability, Approachability, Helpful, Patience, Open-Mindedness.</span>
           </li>
           <li className='item'>
             <h2>Programming Languages</h2>
-            <span>Placeholder Stuff</span>
+            <span>Java, JavaScript, React, React Native, Python, Racket, Scheme, C, HTML, CSS.</span>
+          </li>
+          <li className='item'>
+            <h6>For an in-depth look into my skills, please take a look at my resume located in the footer of the page.</h6>
           </li>
         </ol>
       </div>

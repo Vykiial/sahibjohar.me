@@ -6,11 +6,11 @@ import WorkIcon from '@mui/icons-material/Work';
 const LifeTimeline = () => {
   return (
     <div className="experience">
-      <VerticalTimeline lineColor="#3e497a">
+      <VerticalTimeline lineColor="#967969">
       <VerticalTimelineElement 
           className="vertical-timeline-element--education"
           date="Septemeber 2018 - June 2022"
-          iconStyle={{background: '#3e497a', color: '#fff'}}
+          iconStyle={{background: '#D2B48C', color: '#fff'}}
           icon={<SchoolIcon />}
         >
           <h3 
@@ -24,7 +24,7 @@ const LifeTimeline = () => {
         <VerticalTimelineElement 
           className="vertical-timeline-element--education"
           date="June 2019 - September 2020"
-          iconStyle={{background: 'orange', color: '#fff'}}
+          iconStyle={{background: '#967969', color: '#fff'}}
           icon={<WorkIcon />}
         >
           <h3 
@@ -38,7 +38,7 @@ const LifeTimeline = () => {
         <VerticalTimelineElement 
           className="vertical-timeline-element--education"
           date="October 2020 - Febuary 2021"
-          iconStyle={{background: 'orange', color: '#fff'}}
+          iconStyle={{background: '#967969', color: '#fff'}}
           icon={<WorkIcon />}
         >
           <h3 
@@ -52,7 +52,7 @@ const LifeTimeline = () => {
         <VerticalTimelineElement 
           className="vertical-timeline-element--education"
           date="July 2021 - August 2022"
-          iconStyle={{background: 'orange', color: '#fff'}}
+          iconStyle={{background: '#967969', color: '#fff'}}
           icon={<WorkIcon />}
         >
           <h3 
@@ -66,7 +66,7 @@ const LifeTimeline = () => {
         <VerticalTimelineElement 
           className="vertical-timeline-element--education"
           date="Septemeber 2022 - April 2027 (Expected)"
-          iconStyle={{background: '#3e497a', color: '#fff'}}
+          iconStyle={{background: '#D2B48C', color: '#fff'}}
           icon={<SchoolIcon />}
         >
           <h3 
@@ -80,7 +80,7 @@ const LifeTimeline = () => {
         <VerticalTimelineElement 
           className="vertical-timeline-element--education"
           date="Septemeber 2022 - April 2027 (Expected)"
-          iconStyle={{background: '#3e497a', color: '#fff'}}
+          iconStyle={{background: '#D2B48C', color: '#fff'}}
           icon={<SchoolIcon />}
         >
           <h3 
@@ -94,7 +94,7 @@ const LifeTimeline = () => {
         <VerticalTimelineElement 
           className="vertical-timeline-element--education"
           date="September 2022 - Now"
-          iconStyle={{background: 'orange', color: '#fff'}}
+          iconStyle={{background: '#967969', color: '#fff'}}
           icon={<WorkIcon />}
         >
           <h3 

@@ -16,9 +16,8 @@ const ProjectDisplay = () => {
           target='_blank'
           rel='noreferrer'
         >
-          <Launch />
+          <Launch id="linkButton"/>
         </a>
-
     </div>
   )
 }
