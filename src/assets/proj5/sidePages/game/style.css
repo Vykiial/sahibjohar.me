@@ -1,0 +1,17 @@
+/*
+  Sahib Johar, Jack Burger
+  2021-06-08
+  JS Style File
+  This is our style file for the main game of the final summative project
+*/
+html{
+	padding: 0;
+	margin: 0;
+}
+body{
+	padding: 0;
+	margin: 0;
+}
+canvas{
+	width: 100%;
+}

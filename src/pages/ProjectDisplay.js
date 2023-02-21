@@ -1,6 +1,6 @@
 import { useParams } from 'react-router-dom';
 import { ProjectList } from '../assets/ProjectList';
-import GithubIcon from '@mui/icons-material/GitHub';
+import Launch from '@mui/icons-material/Launch';
 
 const ProjectDisplay = () => {
     const { id } = useParams();
@@ -11,7 +11,14 @@ const ProjectDisplay = () => {
         <h1>{project.name}</h1>
         <img src={project.image} />
         <p>Skills: {project.skills}</p>
-        <GithubIcon />
+        <a 
+          href={project.link} 
+          target='_blank'
+          rel='noreferrer'
+        >
+          <Launch />
+        </a>
+
     </div>
   )
 }

@@ -6,6 +6,7 @@ import Projects from "./pages/Projects";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import ProjectDisplay from "./pages/ProjectDisplay";
+import Ario from "./assets/proj5/sidePages/game/Ario";
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
           <Route path='/Projects' element={<Projects />}></Route>
           <Route path='/LifeTimeLine' element={<LifeTimeline />}></Route>
           <Route path='/Projects/:id' element={<ProjectDisplay />} />
+          <Route path='/Ario' element={<Ario />} />
         </Routes>
         <Footer />
       </Router>
