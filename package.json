@@ -1,5 +1,5 @@
 {
-  "homepage": "http://Vykiial.github.io/sahibjohar.me",
+  "homepage": "sahibjohar.me",
   "name": "personalwebsite",
   "version": "0.1.0",
   "private": true,
@@ -21,7 +21,7 @@
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",
-    "deply": "gh-pages -d build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
