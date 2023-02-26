@@ -20,7 +20,7 @@ function App() {
           <Route path='/LifeTimeLine' element={<LifeTimeline />}></Route>
           <Route path='/Projects/:id' element={<ProjectDisplay />} />
           <Route path='/Ario' element={<Ario />} />
-          <Route path='*' element={<Navigate to='/' />} />
+          <Route path='/*' element={<Navigate to='/' />} />
         </Routes>
         <Footer />
       </Router>
