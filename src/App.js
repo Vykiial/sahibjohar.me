@@ -1,5 +1,5 @@
 import "./App.css";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 import Home from "./pages/Home";
 import LifeTimeline from "./pages/LifeTimeline";
 import Projects from "./pages/Projects";
@@ -20,6 +20,7 @@ function App() {
           <Route path='/LifeTimeLine' element={<LifeTimeline />}></Route>
           <Route path='/Projects/:id' element={<ProjectDisplay />} />
           <Route path='/Ario' element={<Ario />} />
+          <Route path='*' element={<Navigate to='/' />} />
         </Routes>
         <Footer />
       </Router>
